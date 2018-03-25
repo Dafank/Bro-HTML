@@ -1,0 +1,36 @@
+*{
+  text-decoration: none;
+    background: rgb(115, 223, 115);
+}
+
+#header,#article,#aside,#footer{
+      background-color: rgb(227, 233, 225);
+      font-size: 1.2em;
+      font-style: Comic Sans MS;
+}
+
+#header,#footer{
+    height: 150px;
+    width:calc(100%-20px);
+    padding: 10px;
+    margin: 10px;
+    clear: both;
+}
+#article, #aside
+{
+      height: 385px;
+      padding: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px
+}
+#article{
+      width: 60%;
+      margin-right: calc(5%-10px);
+      float: left;
+}
+
+#aside{
+      width: 30%;
+      float: right;
+}

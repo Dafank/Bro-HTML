@@ -1,0 +1,77 @@
+*{
+  text-decoration: none;
+}
+
+#div-css_1{
+  border: solid 2px gold;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+#div-css_2{
+  margin-top: 10px;
+  width:100px;
+  height: 100px;
+  border: dashed 2px silver;
+  text-align: center;
+}
+
+#div-css_3{
+  margin-top: 10px;
+  width:100px;
+  height: 100px;
+  border: dotted 2px brown;
+  text-align: center;
+}
+
+#div-css_4{
+  margin-top: 10px;
+  width:100px;
+  height: 100px;
+  background-color: rgb(45, 98, 190);
+  border:solid 2px red;
+}
+
+#div-css_5{
+  margin-top: 10px;
+  width:100px;
+  height: 100px;
+  background-color: rgb(116, 168, 40);
+  border-radius: 10px;
+}
+#div-css_6{
+    margin-top: 10px;
+    width:100px;
+    height: 100px;
+    border: double 4px red;
+    text-align: center;
+}
+#div-css_7{
+  margin-top: 10px;
+  width:100px;
+  height: 100px;
+  border:groove 4px blue;
+  text-align: center;
+}
+#div-css_8{
+  margin-top: 10px;
+  width:100px;
+  height: 100px;
+  border:ridge 4px blue;
+  text-align: center;
+}
+#div-css_9{
+  margin-top: 10px;
+  width:100px;
+  height: 100px;
+  border:inset 4px blue;
+  text-align: center;
+}
+#div-css_10{
+  margin-top: 10px;
+  width:100px;
+  height: 100px;
+  border:outset 4px blue;
+  text-align: center;
+}

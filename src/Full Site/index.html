@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/style.css">
+  <title>Document</title>
+  <style>
+  *{
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+body{
+  color:white;
+  font-size: 1.3em;
+}
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+.inner-footer,.inner-header, .inner-content-1,.inner-content-2,
+.inner-sidebar-1,.inner-sidebar-2,.inner-sidebar-3{
+    background-color:rgb(82, 19, 101);
+}
+.inner-header, .inner-footer{
+  height: 200px;
+}
+.header{
+    margin-bottom: 10px
+}
+.inner-sidebar-1,.inner-sidebar-2,.inner-sidebar-3{
+    min-height: 500px;
+}
+.contents{
+  width: 60%;
+  height: 710px;
+  float:left;
+  background-color: rgb(82, 19, 101);
+}
+.inner-content-1,.inner-content-2{
+    height: 510px;
+
+}
+.inner-content-1{
+    background-color: rgb(192, 63, 203);
+}
+.inner-content-2{
+    background-color: rgb(113, 7, 122);
+}
+.content-1{
+  width: 50%;
+  float:left;
+
+}
+.content-2{
+  width: 50%;
+  float:left;
+}
+.sidebars{
+  width: 40%;
+  float:left;
+}
+.sidebar-1{
+    width:33.33%;
+    float:left;
+    padding-left: 10px;
+}
+.sidebar-2{
+    width:33.33%;
+    float:left;
+    padding-left: 10px;
+}
+.sidebar-3{
+    width:33.33%;
+    float:left;
+    padding-left: 10px;
+}
+.footer{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+      <div class="header">
+        <div class="inner-header"> Header</div>
+      </div>
+
+      <div class="row">
+        <div class="contents">
+          <div class="content-1">
+            <div class="inner-content-1">Content#1</div>
+          </div>
+          <div class="content-2">
+            <div class="inner-content-2">Content#2</div>
+          </div>
+
+        </div>
+          <div class="sidebars">
+            <div class="row">
+              <div class="sidebar-1">
+                <div class="inner-sidebar-1">SideBar#1</div>
+              </div>
+              <div class="sidebar-2">
+                <div class="inner-sidebar-2">SideBar#2</div>
+              </div>
+              <div class="sidebar-3">
+                <div class="inner-sidebar-3">SideBar#3</div>
+              </div>
+            </div>
+
+            <div class="footer">
+              <div class="inner-footer">Footer</div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+*{
+  text-decoration: none;
+}
+
+html{
+  background: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/blue-background-png-12.jpg);
+  
+}
+#first{
+  color: rgb(106, 72, 230);
+  font-size: 20px;
+}
+
+.second{
+  color:rgb(0, 139, 198);
+  font-size:19px;
+}
+
+#bg{
+  background-color: red;
+}
+
+
+#hover:hover{
+  color: rgb(54, 144, 0);
+  font-size: 17px;
+  width: 200px;
+}
+
+#link1:hover{
+  color:rgb(255, 0, 0);
+}
+
+#link2:active{
+  color:rgb(0, 213, 79);
+}
+
+#link3{
+  color:rgb(51, 0, 254);
+}

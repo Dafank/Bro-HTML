@@ -1,0 +1,33 @@
+html{
+  text-decoration: none;
+}
+#text-css_1{
+  font-size: 1.1em;
+}
+#text-css_2{
+  font-weight: bold;
+}
+#text-css_3{
+  font-family: Comic Sans MS,sans-serif;
+}
+
+#text-css_4{
+  text-align: center;
+}
+
+#text-css_5{
+  text-indent:1.1em;
+}
+
+#text-css_6{
+  text-transform: capitalize;
+}
+#text-css_7{
+  word-spacing: 10px;
+}
+#text-css_8{
+  letter-spacing: 10px
+}
+#text-css_9{
+  line-height: 200%;
+}
